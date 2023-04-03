@@ -19,7 +19,7 @@ The script establishes 6to4 tunnels. You connect to your server's ipv4 address o
 # Installation
 
 ```
-sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Sadzurami/tunnelbroker-proxies/main/main.sh)"
+sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/sellbywords/tunnelbroker-ipv6/main/main.sh)"
 ```
 
 # How to start
