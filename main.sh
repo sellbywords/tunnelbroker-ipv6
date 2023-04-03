@@ -57,10 +57,10 @@ if [[ ! "$PROXY_COUNT" ]]; then
 fi
 
 ####
-echo "↓ Proxies protocol (http, socks5; default http):"
+echo "↓ Proxies protocol (http, socks5; default socks5):"
 read PROXY_PROTOCOL
 if [[ PROXY_PROTOCOL != "socks5" ]]; then
-  PROXY_PROTOCOL="http"
+  PROXY_PROTOCOL="socks5"
 fi
 
 ####
