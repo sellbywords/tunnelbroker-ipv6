@@ -19,6 +19,9 @@ The script establishes 6to4 tunnels. You connect to your server's ipv4 address o
 # Installation
 
 ```
+sudo apt update && sudo apt upgrade
+sudo apt-get install git mc make htop build-essential speedtest-cli curl wget ncdu tmux psmisc net-tools
+
 sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/sellbywords/tunnelbroker-ipv6/main/main.sh)"
 ```
 
